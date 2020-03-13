@@ -608,7 +608,7 @@ header nav.nav-is-visible span.stretchy-nav-bg {
 	display: block;
 	width: 100%;
 	padding: 0;
-	margin: 10px 0 15
+	margin: 10px 0px 15px;
 }
 
 .lightbox .lightbox-info li {
