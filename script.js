@@ -1,3 +1,5 @@
+// Lazy Loading for images 
+
 //Strechy nav
 const navTrigger = document.querySelector(".nav-trigger");
 const nav = document.querySelector(".stretchy-nav");
@@ -6,8 +8,8 @@ navTrigger.addEventListener("click", function () {
 })
 const ahref = document.querySelector(".links").children;
 const allSections = document.querySelector(".all-sections").children;
-const aboutBtn = document.querySelector(".aboutBtn");
-const portfolioBtn = document.querySelector(".portfolioBtn");
+const aboutButton = document.querySelector(".aboutButton");
+const portfolioButton = document.querySelector(".portfolioButton");
 
 for (let i = 0; i < ahref.length; i++) {
 	const a = ahref[i].querySelector("a");
@@ -21,11 +23,11 @@ for (let i = 0; i < ahref.length; i++) {
 		this.classList.add("active");
 	})
 }
-aboutBtn.addEventListener("click", function () {
+aboutButton.addEventListener("click", function () {
 	section(this);
 	updateNav(this);
 })
-portfolioBtn.addEventListener("click", function () {
+portfolioButton.addEventListener("click", function () {
 	section(this);
 	updateNav(this);
 })

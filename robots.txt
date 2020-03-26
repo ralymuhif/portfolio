@@ -1,3 +1,8 @@
+Sitemap: https://www.ralymuhif.com/sitemap.xml
+
+User-agent: Mediapartners-Google
+Disallow:
+
 User-agent: Googlebot
 Disallow:
 
