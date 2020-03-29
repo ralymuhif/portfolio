@@ -14,11 +14,13 @@ body {
 
 }
 
-#logo {
+#logo a {
    float: left;
    font-weight: bold;
    font-size: 120%;
    padding: 3px 5px;
+   text-decoration: none;
+   color: #3498DA;
 }
 
 #header {
