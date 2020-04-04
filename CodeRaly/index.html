@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeRaly - A simple Live Code Editor</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  </head>
 
-<head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>CodeRaly - A simple Live Code Editor</title>
-   <link rel="stylesheet" href="style.css">
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-</head>
-
-<body>
-   <div id="header">
+  <body>
+    <div id="header">
       <div id="logo">
-         <a href="index.html">CodeRaly</a>
+        <a href="index.html">CodeRaly</a>
       </div>
 
       <div id="buttonContainer">
-         <div class="toggleButton active" id="html">HTML</div>
-         <div class="toggleButton" id="css">CSS</div>
-         <div class="toggleButton" id="javascript">JavaScript</div>
-         <div class="toggleButton active" id="output">Output</div>
+        <div class="toggleButton active" id="html">HTML</div>
+        <div class="toggleButton" id="css">CSS</div>
+        <div class="toggleButton" id="javascript">JavaScript</div>
+        <div class="toggleButton active" id="output">Output</div>
       </div>
+    </div>
 
-   </div>
-
-   <div id="bodyContainer">
-      <textarea id="htmlPanel" class="panel"><!DOCTYPE html>
+    <div id="bodyContainer">
+      <textarea id="htmlPanel" class="panel">
+<!DOCTYPE html>
 <html>
 <head>
 
@@ -36,27 +35,33 @@
 </head>
 <body>
 
-   <h1 id="headerTag"> Hello World! </h1>
+   <h1 id="headerTag"> Hello what is your name? </h1>
 
 </body>
-</html></textarea>
-      <textarea id="cssPanel" class="panel hidden">/*i.e: Change the color and the font-family and size of the header by removing "//" on the following line*/
+</html></textarea
+      >
+      <textarea id="cssPanel" class="panel hidden">
+/*i.e: Change the color and the font-family and size of the header by removing "//" on the following line*/
 
 //h1{
    color:red;
    font-family:Times New Roman;
    font-size: 50px;
-   }</textarea>
+   }</textarea
+      >
 
-      <textarea id="javascriptPanel" class="panel hidden">/*i.e: Change the paragraph by removing "//" on the following line and add your name after Hello */
+      <textarea id="javascriptPanel" class="panel hidden">
+/*i.e: Change the paragraph by removing "//" on the following line and add your name after Hello my name is */
 
-//document.getElementById("headerTag").innerHTML = "Hello !";</textarea>
-      <iframe sandbox="allow-same-origin allow-scripts allow-popups allow-forms" id="outputPanel"
-         class="panel"></iframe>
-   </div>
+//document.getElementById("headerTag").innerHTML = "Hello my name is ";</textarea
+      >
+      <iframe
+        sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+        id="outputPanel"
+        class="panel"
+      ></iframe>
+    </div>
 
-   <script src="script.js"></script>
-
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
