@@ -1,9 +1,14 @@
 //Strechy nav
 const navTrigger = document.querySelector(".navigation");
 const nav = document.querySelector(".stretchy-nav");
-navTrigger.addEventListener("click", function () {
+
+// Added a function to remove # when the navigation bar is clicked
+function reveal(e) {
+  e.preventDefault();
   nav.classList.toggle("nav-is-visible");
-});
+}
+navTrigger.onclick = reveal;
+
 const ahref = document.querySelector(".links").children;
 const allSections = document.querySelector(".all-sections").children;
 const aboutButton = document.querySelector(".aboutButton");
@@ -63,6 +68,7 @@ for (let i = 0; i < portfolioItems.length; i++) {
   portfolioItems[i].addEventListener("click", function () {
     console.log(this);
     portfolioContainer.classList.add("lightbox-is-visible");
+    lightbox.classList.remove("hidden");
     lightbox.classList.add("lightbox-is-visible");
     currentItem = i;
     changeProjectInfo();
