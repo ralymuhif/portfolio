@@ -369,7 +369,7 @@ header nav.nav-is-visible span.stretchy-nav-bg {
 }
 .about {
   min-height: 100vh;
-  background-color: #1f2833;
+  background-color: #1d1d1b;
   padding: 0 15px 70px;
 }
 
@@ -457,7 +457,7 @@ header nav.nav-is-visible span.stretchy-nav-bg {
 
 .portfolio {
   min-height: 100vh;
-  background-color: #1f2833;
+  background-color: #1d1d1b;
   padding: 0 15px 70px;
 }
 
@@ -540,7 +540,7 @@ header nav.nav-is-visible span.stretchy-nav-bg {
   top: 0;
   right: 0;
   z-index: 55;
-  background-color: #1f2833;
+  background-color: #1d1d1b;
   height: 100%;
   overflow-y: auto;
   transform: translateX(100%);
@@ -619,7 +619,7 @@ header nav.nav-is-visible span.stretchy-nav-bg {
 
 .skills {
   min-height: 100vh;
-  background-color: #1f2833;
+  background-color: #1d1d1b;
   padding: 0 15px 70px;
 }
 
@@ -738,7 +738,7 @@ header nav.nav-is-visible span.stretchy-nav-bg {
 
 .contact {
   min-height: 100vh;
-  background-color: #1f2833;
+  background-color: #1d1d1b;
   padding: 0 15px 70px;
 }
 
@@ -787,7 +787,7 @@ header nav.nav-is-visible span.stretchy-nav-bg {
   height: 45px;
   border-radius: 25px;
   padding: 6px 12px 6px 45px;
-  background-color: #1f2833;
+  background-color: #1d1d1b;
   margin-bottom: 30px;
   border: 1px solid #444;
   font-size: 15px;
