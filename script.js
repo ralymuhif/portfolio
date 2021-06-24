@@ -91,9 +91,8 @@ const duration = document.querySelector("#duration");
 const technologies = document.querySelector("#technologies");
 
 function changeProjectInfo() {
-  const projectInfo = portfolioItems[currentItem].querySelector(
-    ".project-info"
-  );
+  const projectInfo =
+    portfolioItems[currentItem].querySelector(".project-info");
   project.innerHTML = projectInfo.querySelector(".project").innerHTML;
   client.innerHTML = projectInfo.querySelector(".client").innerHTML;
   duration.innerHTML = projectInfo.querySelector(".duration").innerHTML;

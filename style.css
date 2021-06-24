@@ -633,7 +633,7 @@ header nav.nav-is-visible span.stretchy-nav-bg {
 
 .skills .row2 {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   justify-content: center;
   align-items: center;
   text-align: center;
