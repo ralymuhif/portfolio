@@ -631,6 +631,14 @@ header nav.nav-is-visible span.stretchy-nav-bg {
   margin-bottom: 0.5rem;
 }
 
+.skill-title a,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 .skills .row2 {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
